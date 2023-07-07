@@ -600,6 +600,12 @@ nav .navbar-white .fa-bars{
     margin: 40px 0;
 }
 
+.pagination span:hover{
+    background-color: #ff5361;
+    border-radius: 50%;
+    color: #fff;
+}
+
 .pagination img{
     width: 15px;
     margin: 10px 20px;
@@ -622,6 +628,15 @@ nav .navbar-white .fa-bars{
 .pagination .current{
     background: #333;
     color: #fff;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #ff5361;
 }
 
 /*---------small screen for listing page------------*/
