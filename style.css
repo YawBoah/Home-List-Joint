@@ -239,34 +239,88 @@ nav{
     font-weight: 500;
 }
 
-/*----footer------*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .footer{
-    margin: 80px;
-    text-align: center;    
-}
-
-.footer a{
-    text-decoration: none;
-    color: #999;
-    font-size: 22px;
-    margin: 0 10px;
-}
-
-.footer a:hover{
-    color: #ff5361;
-}
-
-.footer hr{
-    background: #999;
-    height: 1px;
-    width: 100%;
-    border: 0;
-    margin: 20px;
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 10px 20px;
 }
 
 .footer p{
     font-weight: 600;
+    color: #8a8a8a;
+}
+
+.footer h3{
     font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.footer li{
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ff5361;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.copyright{
+    text-align: center;
 }
 
 .active{
