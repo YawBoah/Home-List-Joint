@@ -252,6 +252,10 @@ nav{
     margin: 0 10px;
 }
 
+.footer a:hover{
+    color: #ff5361;
+}
+
 .footer hr{
     background: #999;
     height: 1px;
