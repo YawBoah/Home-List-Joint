@@ -55,7 +55,7 @@ nav{
 }
 
 .search-bar{
-    background: #fff;
+    background: #ccc;
     width: 70%;
     margin: 30px auto;
     padding: 6px 10px 6px 30px;
@@ -399,9 +399,9 @@ nav .fa-bars{
         font-size: 7vw;
     }
 
-    search-bar{
+    .search-bar{
         width: 90%;
-        margin: 30px auto;
+        margin: 10px auto;
         padding: 20px 10px 30px;
         border-radius: 5px;
         position: relative;
