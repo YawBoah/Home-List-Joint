@@ -68,7 +68,7 @@ To get started with the Home Listing Joint website, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/YawBoah/home-listing-joint.git
+   git clone https://github.com/YawBoah/home-list-joint.git
    ```
 
 2. Navigate to the project directory:
